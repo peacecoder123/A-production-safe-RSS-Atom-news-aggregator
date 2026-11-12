@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Hacker News Frontpage",
+    "url": "https://hnrss.org/frontpage",
+    "allowed_domains": ["hnrss.org"]
+  },
+  {
+    "name": "Python Insider Blog",
+    "url": "https://blog.python.org/feeds/posts/default",
+    "allowed_domains": ["blog.python.org", "www.blogger.com"]
+  },
+  {
+    "name": "LiveMint Markets",
+    "url": "https://www.livemint.com/rss/markets",
+    "allowed_domains": ["www.livemint.com", "livemint.com"]
+  },
+  {
+    "name": "Economic Times Markets",
+    "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+    "allowed_domains": ["economictimes.indiatimes.com"]
+  }
+]
