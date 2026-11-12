@@ -4,6 +4,8 @@ description: >-
   Fetch, clean, deduplicate, and normalize RSS/Atom news feeds with strict SSRF protection,
   HTML stripping, UTC timestamp ordering, and media-enclosure filtering. Use when the user wants
   to aggregate live news, track releases/articles across multiple RSS feeds, or build a clean JSON/Markdown digest.
+author: "Radhe Wankhade (@RadheWankhade01)"
+x_profile: "https://x.com/RadheWankhade01"
 ---
 
 # Safe RSS News Ingestor
@@ -36,3 +38,4 @@ Safely poll multiple RSS/Atom feeds with domain allowlisting, DNS/IP SSRF blocki
 ## Verification
 - Confirm `fetch_rss.py` prints clean articles without HTML tags and exits `0`.
 - Run `pytest -v` in the repo root to verify SSRF blocking (private IPs, unapproved redirects), HTML stripping, UTC ordering, and JSON store deduplication.
+

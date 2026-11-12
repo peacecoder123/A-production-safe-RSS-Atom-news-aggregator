@@ -1,5 +1,7 @@
 # Safe RSS News Ingestor
 
+> **Developer:** Radhe Wankhade · [@RadheWankhade01](https://x.com/RadheWankhade01) on X
+
 A lightweight, **SSRF-hardened RSS/Atom news aggregator** for any topic (tech, AI, security advisories, engineering blogs, finance, world news).
 
 Built because naive RSS scrapers silently break or create vulnerabilities in production:
@@ -45,3 +47,4 @@ pytest -v
 ## License
 
 MIT
+
